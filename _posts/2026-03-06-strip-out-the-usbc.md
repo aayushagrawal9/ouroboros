@@ -1,6 +1,6 @@
 ---
 title: "Strip out the USBC and what do I have left?"
-description: "Why PoE++, EV chargers, and ethernet cables already solve DC power distribution for homes — no new standards needed."
+description: "Last year I wrote about how [USB-C PD isn't just for charging --- it can revolutionize our relationship with electricity](/posts/usb-c-pd-revolutionize-electricity/)\n\nToday I'd like to propose we throw that away."
 date: 2026-03-06 00:00:00 +0000
 categories: [Technology, Energy]
 tags: [poe, dc-power, energy-efficiency, ethernet, sustainability]

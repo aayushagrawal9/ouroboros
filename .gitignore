@@ -31,3 +31,5 @@ CLAUDE.md
 
 medium_blogs_gitignore
 _site_test
+jekyll_docker_run.sh
+.sass-cache/

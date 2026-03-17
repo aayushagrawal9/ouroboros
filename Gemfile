@@ -1,8 +1,9 @@
-# frozen_string_literal: true
-
 source "https://rubygems.org"
 
-gem "jekyll-theme-chirpy", "~> 7.4", ">= 7.4.1"
+gem "jekyll"
+gem "jekyll-theme-lanyon"
+gem "kramdown-parser-gfm"
+gem "webrick"
 
 gem "html-proofer", "~> 5.0", group: :test
 
