@@ -1,5 +1,6 @@
 ---
 title: "The most dangerous line of code Claude wrote was a comment"
+description: "Claude Code generated a security vulnerability disguised as a security feature with a comment explaining why its safe. This is a pattern I've seen repeat itself across multiple AI tools."
 date: 2026-04-14 00:00:00 +0530
 categories: [Cybersecurity, AI Tooling, Linux]
 tags: [Defense-in-Depth, LLMs, SO_PEERCRED, Claude, Code Review, AppSec, AI, Vibe-Coding, Supply-Chain-Security]
