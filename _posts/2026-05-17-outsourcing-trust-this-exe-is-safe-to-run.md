@@ -33,7 +33,7 @@ The worm rapidly spread to over 170 packages across the npm and PyPI registries,
 
 I would like to note that my gripe is not with a file called `.mcp.json` in particular, it is with our reliance on safety mechanisms.
 
-As I explored in a previous piece i.e [Natural, man-made, absurd](/2026/03/03/natural-man-made-absurd), the most devastating Complex Disasters, whether you consider Chernobyl or the 2008 financial crisis, are often enabled by a false sense of security provided by fundamentally incomplete threat models. The devastating Mini Shai-Hulud attack was the software/ai-tooling equivalent.
+As I explored in a previous piece i.e [Natural, man-made, absurd](/posts/natural-man-made-absurd/), the most devastating Complex Disasters, whether you consider Chernobyl or the 2008 financial crisis, are often enabled by a false sense of security provided by fundamentally incomplete threat models. The devastating Mini Shai-Hulud attack was the software/ai-tooling equivalent.
 
 A spherical cow is useful to study in high school physics but the Wright Brothers biggest breakthrough was by bringing the real world (Wind tunnels & the insights they provided) to the theory.
 
@@ -43,6 +43,7 @@ Do you see something I missed, or something to discuss? Please reach out to me o
 
 ## Further reading
 
-- [Natural, man-made, absurd](/2026/03/03/natural-man-made-absurd)
+- [Natural, man-made, absurd](/posts/natural-man-made-absurd/)
+- [The most dangerous line of code Claude wrote was a comment](/posts/the-most-dangerous-line-of-code-claude-wrote-was-a-comment/)
 - [MCP by Design: RCE Across the AI Agent Ecosystem](https://labs.watchtowr.com/mcp-by-design-rce-across-the-ai-agent-ecosystem/)
 - CVE-2026–45321, CVE-2025–59536, CVE-2026–25725, CVE-2026–21852
