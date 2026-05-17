@@ -15,7 +15,7 @@ You would call that a fundamentally broken architecture, you would call it absur
 
 And yet this is the paradigm state-of-the-art development tools have chosen to adopt. When I disclosed this exact lateral transfer vulnerability on 9 March, Anthropic explicitly confirmed it fell outside Claude Code's threat model and was functioning as designed. Here is why delegating trust to static configuration files creates a false sense of security that threat actors are already exploiting.
 
-> After careful review, this report falls outside our current threat model. The scenario described involves a user cloning and opening a repository that contains malicious configuration files (such as .mcp.json). In this context, the trust boundary is functioning as designed - when a user chooses to trust and work within a repository, they are explicitly trusting the repository contents at that point in time and in the future. In this case the fact that they then open Claude Code in an untrusted directory falls outside the threat model of Claude Code.
+> After careful review, this report falls outside our current threat model. The scenario described involves a user cloning and opening a repository that contains malicious configuration files (such as .mcp.json). In this context, the trust boundary is functioning as designed - when a user chooses to trust and work within a repository, they are explicitly trusting the repository contents **at that point in time and in the future**. In this case the fact that they then open Claude Code in an untrusted directory falls outside the threat model of Claude Code.
 
 In a vacuum this logic appears airtight. If you trust a repository, you trust its configuration. When you outsource trust to a configuration file you assume it was put there by a user, reviewed by the maintainers, it'd be absurd to lose your SSH keys the moment you ask Claude to review a pull request.
 
@@ -33,7 +33,7 @@ The worm rapidly spread to over 170 packages across the npm and PyPI registries,
 
 I would like to note that my gripe is not with a file called `.mcp.json` in particular, it is with our reliance on safety mechanisms.
 
-As I explored in a previous piece i.e [Natural, man-made, absurd](/posts/natural-man-made-absurd/), the most devastating Complex Disasters, whether you consider Chernobyl or the 2008 financial crisis, are often enabled by a false sense of security provided by fundamentally incomplete threat models. The devastating Mini Shai-Hulud attack was the software/ai-tooling equivalent.
+As I explored in a previous piece i.e *[Natural, man-made, absurd](/posts/natural-man-made-absurd/)*, the most devastating Complex Disasters, whether you consider Chernobyl or the 2008 financial crisis, are often enabled by a false sense of security provided by fundamentally incomplete threat models. The devastating Mini Shai-Hulud attack was the software/ai-tooling equivalent.
 
 A spherical cow is useful to study in high school physics but the Wright Brothers biggest breakthrough was by bringing the real world (Wind tunnels & the insights they provided) to the theory.
 
