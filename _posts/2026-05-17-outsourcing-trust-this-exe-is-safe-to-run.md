@@ -39,7 +39,8 @@ A spherical cow is useful to study in high school physics but the Wright Brother
 
 Do you see something I missed, or something to discuss? Please reach out to me on X or LinkedIn!
 
-<a href="https://x.com/AgentAayush">https://x.com/AgentAayush</a> &nbsp; <a href="https://www.linkedin.com/in/aayushagrawal101/">https://www.linkedin.com/in/aayushagrawal101/</a>
+- [X / @AgentAayush](https://x.com/AgentAayush)
+- [LinkedIn](https://www.linkedin.com/in/aayushagrawal101/)
 
 ## Further reading
 
